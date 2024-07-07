@@ -1,0 +1,202 @@
+/*nav styles*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans-primary {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);background-repeat: no-repeat;
+    background-position: left top,right bottom;
+    margin: 30px;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+    margin: 50px 200px;
+    
+}
+nav h3{
+    font-size: 45px;
+    align-items: center;
+    /* margin-left: 20px; */
+
+}
+span{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    /* margin: 20px;  */
+    align-items: center;
+    
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+}
+.banner{
+    display: flex;
+}
+.banner-content{
+    height: 350px;
+    max-width: 580px;
+    margin-left: 200px;
+}
+.banner .btn{
+    margin-top: 30px;
+    gap: 30px;
+    
+}
+.dark-2{
+    color: #474747;
+}
+.dark-3{
+    color: #757575;
+}
+.contact-btn{
+    background-color: transparent;
+    border:2px solid #FD6E0A;
+    padding: 12px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+a{
+    text-decoration: none;
+
+}
+.button-primary{
+    cursor: pointer;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+}
+/* second banner */
+.second-banner{
+    background-color: #FFF8F3;
+    margin: 100px 200px;
+    max-width: 1140px;
+    /* height: 550px; */
+    display: flex;
+    justify-content: center;
+    padding:  130px;
+}
+.second-banner .content{
+    background-color: #FFFFFF;
+    max-width: 830px;
+    height: 290px;
+    
+    /* margin-top: 130px; */
+}
+.second-banner .content >h2{
+    /* border:2px solid #474747; */
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+}
+.second-banner  .description{
+    margin-top: 30px;
+    width: 100%;
+    height:120px;
+
+}
+.second-banner  .description >p{
+    padding: 10px;
+}
+.content .item{
+    display: flexSs;
+    padding: 30px;
+    /* display: block; */
+    margin-top: 20px;
+}
+.content .item p{
+    margin-right: 80px;
+    width: 160px;
+    height: 60;
+
+}
+.content .item h3{
+    margin-right: 40px ;
+    width: 160px;
+    height: 60;
+}
+/* skills */
+.skills{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    
+    gap: 24px;
+    
+}
+.skills-item{
+    box-shadow: rgba(16, 16, 45, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    width: 250px;
+    height: 350px;
+}
+.skills-item img{
+    width: 40px;
+    height:40px;
+    margin: 30px;
+}
+.dis{
+    margin: 30px;
+}
+.skills-item p{
+    margin-top: 30px;
+}
+/* resume */
+.resume h2{
+    margin: 50px;
+}
+.columns{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    /* margin-left: 120px;
+    margin-right: 100px; */
+}
+.columns .div{
+    width: 511px;
+    height: 175px;
+}
+.btn-cv{
+    padding: 30px;
+    margin-left: 43%;
+    /* display: flex;
+    justify-items: center;
+    width: 100%; */
+    
+}
+/* .snd-bnr{
+    background-color: #FFFFFF;
+    max-width: 830px;
+    height: 290px;
+    margin-top: 130px; */
+
+/* /* .second-banner .snd-bnr{
+    max-width: 830px;
+    height: 290px;
+    background-color: #FFFFFF;
+    /* margin: 130px; */
+    
+
+
